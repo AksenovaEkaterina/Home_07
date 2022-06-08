@@ -41,7 +41,7 @@ void SumCoumnNun (int [,] arr)
             
             sum = sum + arr[i,j];
         }
-        Console.WriteLine($"Sum column_{j+1} = {sum} ");
+        Console.WriteLine($"Среднее арифметическое_{j+1} = {sum/column_size} ");
         sum = 0;
     
     }   
